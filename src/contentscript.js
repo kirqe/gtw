@@ -1,7 +1,7 @@
 (function () {
   function buildCsv() {
-    var source = document.querySelector('#source').value.split("\n")
-    var result = document.querySelectorAll('#result_box span')
+    var source = document.querySelector('#source').value.split("\n").filter((w) => w != "")
+    var result = document.querySelectorAll('.translation span')
     var csv = ""
 
     result = Object.values(result).map((word) => word.innerText)
@@ -18,12 +18,12 @@
   }
 
   function addCsvButton() {
-    var rightRow = document.querySelector('#gt-lang-right')
+    var btnsRow = document.querySelector('.input-button-container')
     var csvBtn = document.createElement('a');
     csvBtn.setAttribute('class', 'csv-btn')
-    var text = document.createTextNode("Save this deck")
+    var text = document.createTextNode("Save words")
     csvBtn.appendChild(text);
-    rightRow.appendChild(csvBtn);
+    btnsRow.appendChild(csvBtn);
   }
 
   function init() {

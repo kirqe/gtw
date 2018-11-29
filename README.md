@@ -1,5 +1,3 @@
-# GTCSV
+# gtw
 
-A Chrome extension for saving google translate word decks to csv
-
-![](demo.png)
+chrome extension for saving google translate words

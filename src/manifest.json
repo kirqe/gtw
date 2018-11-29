@@ -1,8 +1,8 @@
 {
-  "name": "GTCSV",
-  "description": "GTCSV saves your word decks to csv files",
+  "name": "gtw",
+  "description": "an extension for saving google translate words",
   "icons": {
-    "128": "gtcsv-app-icon.png"
+    "128": "gtw-app-icon.png"
   },
   "background": {
     "scripts": ["background.js"],
@@ -15,6 +15,6 @@
       "css": ["contentscript.css"]
     }
   ],
-  "version": "0.0.1",
+  "version": "0.0.1.1",
   "manifest_version": 2
 }
