@@ -209,6 +209,6 @@
       "css": ["contentscript.css"]
     }
   ],
-  "version": "0.0.1.2",
+  "version": "0.0.1.4",
   "manifest_version": 2
 }
